@@ -17,7 +17,9 @@ class MapResource extends Resource
 {
     protected static ?string $model = Map::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-map';
+
+    protected static ?string $navigationGroup = 'Data Master';
 
     public static function form(Form $form): Form
     {
